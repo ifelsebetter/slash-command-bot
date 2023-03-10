@@ -44,13 +44,4 @@ fs.readdir("./commands", (err, files) => {
     });
 });
 
-client.on("ready", () => {
-    console.log(`${client.user.tag} Ready`.cyan)
-
-    client.user.setPresence({
-        activities: [{ name: `Idk`, type: ActivityType.Listening}],
-        status: "online"
-    })
-})
-
 client.log(config.token)
