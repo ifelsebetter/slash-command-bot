@@ -1,5 +1,20 @@
 {
-  "dependencies": {
-    "discord.js": "^14.7.1"
-  }
+  "name": "slash-command-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifelsebetter/slash-command-bot.git"
+  },
+  "keywords": [],
+  "author": "ifelsebetter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ifelsebetter/slash-command-bot/issues"
+  },
+  "homepage": "https://github.com/ifelsebetter/slash-command-bot#readme"
 }
