@@ -15,9 +15,9 @@ npm install
 
 - config.js
 ```js
-{
-    "token": "YOUR_BOT_TOKEN"
-}
+module.exports = {
+    token: "YOUR_BOT_TOKEN"
+} 
 ```
 
 ### If you need to create more commands just create new file in commands file with following example in other commands.
